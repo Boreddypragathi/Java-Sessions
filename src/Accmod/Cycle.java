@@ -13,6 +13,7 @@ public class Cycle {
 		Car c=new Car();
 		//assignment must be based on methods
 		c.running();
+		//Sample comment
 		
 	}
 
