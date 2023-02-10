@@ -3,15 +3,22 @@ package StringManipulation;
 public class ReverseString {
 	public static void reverse(String str)
 	{
-		int len=str.length();
+//		int len=str.length();
+//		String rev="";
+//		for(int i=len-1;i>=0;i--)
+//		{
+//			rev=rev+str.charAt(i);
+//			 
+//		}
+//		System.out.println(rev);
+//		
 		String rev="";
-		for(int i=len-1;i>=0;i--)
+		int len = str.length();
+		for(int i=len-1; i>=0; i--)
 		{
 			rev=rev+str.charAt(i);
-			 
 		}
-		System.out.println(rev);
-		
+		System.out.println("Entered reverse value: " +rev);
 	}    
 
 

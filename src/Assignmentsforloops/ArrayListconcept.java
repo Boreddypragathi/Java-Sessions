@@ -49,13 +49,12 @@ Marks.add(6,700);
 Marks.remove(3);
 System.out.println("totalk emements in the marks is:"+Marks);
 
-ArrayList<Integer> list=new ArrayList<Integer>();
-list.add(10);
-list.add(20);
-list.add(30);
-list.add(50);
-list.listIterator().
-Marks.addAll(list);
+ArrayList<Integer> list1=new ArrayList<Integer>();
+list1.add(10);
+list1.add(20);
+list1.add(30);
+list1.add(50);
+list1.listIterator().Marks.addAll(list1);
 
 
 ArrayList<Object> emp=new ArrayList<Object>();
