@@ -7,7 +7,7 @@ public class BMW extends Car {
 BMW b=new BMW();
 b.running();
 b.cycling();
-b.checking();//for checking
+b.checking();
 
 	}
 
